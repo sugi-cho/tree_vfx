@@ -170,115 +170,95 @@ MonoBehaviour:
     m_Knots:
     - Position:
         x: 0
-        y: 0
+        y: -1.5
         z: 0
       TangentIn:
         x: -0
         y: -0
-        z: -0.16886088
+        z: -0.24253866
       TangentOut:
         x: 0
         y: 0
-        z: 0.16886088
+        z: 0.24253866
       Rotation:
         value:
-          x: -0.7051559
-          y: 0.052488722
-          z: -0.052488666
-          w: 0.7051559
+          x: 0.7015907
+          y: -0.088150755
+          z: 0.088151075
+          w: -0.70159066
     - Position:
-        x: 0.25
-        y: 1.67
+        x: 0.6000004
+        y: 0.85
         z: 0
       TangentIn:
         x: -0
         y: -0
-        z: -0.619713
+        z: -0.8784615
       TangentOut:
         x: 0
         y: 0
-        z: 0.8149272
+        z: 1.1973222
       Rotation:
         value:
-          x: -0.6931686
-          y: 0.13970473
-          z: -0.13970464
-          w: 0.6931686
+          x: 0.7178229
+          y: -0.20889908
+          z: 0.1893408
+          w: -0.63658583
     - Position:
-        x: 2.0100002
-        y: 4
-        z: 0
+        x: 4.05
+        y: 3.57
+        z: -1
       TangentIn:
         x: -0
         y: -0
-        z: -0.95941913
+        z: -1.644751
       TangentOut:
         x: 0
         y: 0
-        z: 0.9327667
+        z: 2.0129995
       Rotation:
         value:
-          x: -0.67275065
-          y: 0.21773043
-          z: -0.21773013
-          w: 0.6727507
+          x: 0.6700214
+          y: -0.34675795
+          z: 0.30312428
+          w: -0.5821906
     - Position:
-        x: 3.58
-        y: 6.27
-        z: 0
+        x: 9.76
+        y: 7.15
+        z: -1.36
       TangentIn:
         x: -0
         y: -0
-        z: -0.8813275
+        z: -1.9931085
       TangentOut:
         x: 0
         y: 0
-        z: 0.8480242
+        z: 1.5974182
       Rotation:
         value:
-          x: -0.64834905
-          y: 0.28221184
-          z: -0.28221184
-          w: 0.64834905
+          x: 0.61985296
+          y: -0.37825298
+          z: 0.3629091
+          w: -0.5839554
     - Position:
-        x: 5.7799997
-        y: 7.57
-        z: 0
+        x: 13.790001
+        y: 8.73
+        z: -1.6
       TangentIn:
         x: -0
         y: -0
-        z: -0.82289517
+        z: -0.4335309
       TangentOut:
         x: 0
         y: 0
-        z: 0.8456996
+        z: 0.4335309
       Rotation:
         value:
-          x: 0.55326694
-          y: -0.440336
-          z: 0.44049755
-          w: -0.5531383
-    - Position:
-        x: 8.469999
-        y: 7.35
-        z: 0
-      TangentIn:
-        x: -0
-        y: -0
-        z: -0.2698981
-      TangentOut:
-        x: 0
-        y: 0
-        z: 0.2698981
-      Rotation:
-        value:
-          x: -0.47918797
-          y: 0.5199797
-          z: -0.51997817
-          w: 0.47918963
+          x: 0.62716925
+          y: -0.3665221
+          z: 0.42584842
+          w: -0.5394196
     m_MetaData:
-    - Mode: 0
-      Tension: 0.5
     - Mode: 0
       Tension: 0.5
     - Mode: 0
@@ -330,7 +310,7 @@ MonoBehaviour:
   m_Property:
     m_Name: ShapeSpline
   Target: {fileID: 192353724}
-  splineMap: {fileID: 1001999986}
+  splineMap: {fileID: 1371631462}
   curveStartLUT:
     serializedVersion: 2
     m_Curve:
@@ -338,51 +318,42 @@ MonoBehaviour:
       time: 0
       value: 0
       inSlope: 0
-      outSlope: 7.4803247
+      outSlope: 7.390467
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.13368404
+      time: 0.13530944
       value: 1
-      inSlope: 7.4803247
-      outSlope: 4.3329124
+      inSlope: 7.390467
+      outSlope: 3.9860253
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.3644757
+      time: 0.3861859
       value: 2
-      inSlope: 4.3329124
-      outSlope: 4.585019
+      inSlope: 3.9860253
+      outSlope: 2.6751266
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.5825773
+      time: 0.76
       value: 3
-      inSlope: 4.585019
-      outSlope: 4.911977
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 0.7861613
-      value: 4
-      inSlope: 4.911977
-      outSlope: 4.676422
+      inSlope: 2.6751266
+      outSlope: 4.1666665
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
       time: 1
-      value: 5
-      inSlope: 4.676422
+      value: 4
+      inSlope: 4.1666665
       outSlope: 0
       tangentMode: 0
       weightedMode: 0
@@ -461,8 +432,8 @@ VisualEffect:
   m_Asset: {fileID: 8926484042661614526, guid: b452aa6267f01cc4985035da955c6ba9, type: 3}
   m_InitialEventName: OnPlay
   m_InitialEventNameOverriden: 0
-  m_StartSeed: 0
-  m_ResetSeedOnPlay: 1
+  m_StartSeed: 109558303
+  m_ResetSeedOnPlay: 0
   m_AllowInstancing: 1
   m_ResourceVersion: 1
   m_PropertySheet:
@@ -489,51 +460,42 @@ VisualEffect:
             time: 0
             value: 0
             inSlope: 0
-            outSlope: 7.4803247
+            outSlope: 7.390467
             tangentMode: 0
             weightedMode: 0
             inWeight: 0
             outWeight: 0
           - serializedVersion: 3
-            time: 0.13368404
+            time: 0.13530944
             value: 1
-            inSlope: 7.4803247
-            outSlope: 4.3329124
+            inSlope: 7.390467
+            outSlope: 3.9860253
             tangentMode: 0
             weightedMode: 0
             inWeight: 0
             outWeight: 0
           - serializedVersion: 3
-            time: 0.3644757
+            time: 0.3861859
             value: 2
-            inSlope: 4.3329124
-            outSlope: 4.585019
+            inSlope: 3.9860253
+            outSlope: 2.6751266
             tangentMode: 0
             weightedMode: 0
             inWeight: 0
             outWeight: 0
           - serializedVersion: 3
-            time: 0.5825773
+            time: 0.76
             value: 3
-            inSlope: 4.585019
-            outSlope: 4.911977
-            tangentMode: 0
-            weightedMode: 0
-            inWeight: 0
-            outWeight: 0
-          - serializedVersion: 3
-            time: 0.7861613
-            value: 4
-            inSlope: 4.911977
-            outSlope: 4.676422
+            inSlope: 2.6751266
+            outSlope: 4.1666665
             tangentMode: 0
             weightedMode: 0
             inWeight: 0
             outWeight: 0
           - serializedVersion: 3
             time: 1
-            value: 5
-            inSlope: 4.676422
+            value: 4
+            inSlope: 4.1666665
             outSlope: 0
             tangentMode: 0
             weightedMode: 0
@@ -548,7 +510,7 @@ VisualEffect:
       m_Array: []
     m_NamedObject:
       m_Array:
-      - m_Value: {fileID: 1001999986}
+      - m_Value: {fileID: 1371631462}
         m_Name: ShapeSpline
         m_Overridden: 1
     m_Bool:
@@ -897,7 +859,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!28 &1001999986
+--- !u!28 &1371631462
 Texture2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -910,8 +872,8 @@ Texture2D:
   m_IsAlphaChannelOptional: 0
   serializedVersion: 3
   m_Width: 4
-  m_Height: 5
-  m_CompleteImageSize: 320
+  m_Height: 4
+  m_CompleteImageSize: 256
   m_MipsStripped: 0
   m_TextureFormat: 20
   m_MipCount: 1
@@ -936,8 +898,8 @@ Texture2D:
   m_LightmapFormat: 0
   m_ColorSpace: 1
   m_PlatformBlob: 
-  image data: 320
-  _typelessdata: 00000000000000000000000000000000cbcccc3c0a022b3e00000033dd23d93f4008233c24a18c3f00008033e9084b410000803e8fc2d53f00000000d25eef400000803e8fc2d53f0000000078e4083e87cf103faef61a40000000b45a6f3b409e53b93fa23d4e40000080b3e9084b41d8a30040000080400000000037a78a40d8a3004000008040000000008f9cba3e079e23404030984000008033fc20314083d63b400f6cb54000008033e9084b41b81e6540d7a3c840000000007bb89240b81e6540d7a3c84000000000c923153fca6b8640b721db4000000000aa5625401a4c9f408856ec4000000034e9084b41c2f5b840713df24000000000ec2e9d40c2f5b840713df24000000000de41493f7955d340394ef840000040b4b5aa2d404b3703416ce7eb4000000000e9084b411e8507413333eb40000000003ea59540
+  image data: 256
+  _typelessdata: 000000000000c0bf00000000000000009cc2753d85eba1bf000040b31f881c4038a2023e18e9ee3da8f6d33df69a9041a099193f9a99593f00000000b57eec40a099193f9a99593f000000008f8e0a3e6a389f3f72bdec3f607310bebe1c9140c8f02d40667c284054c045bff69a90419a998140e17a6440000080bf0c1b7f409a998140e17a6440000080bf29bac53e35c6b54002f4964026a5a3bfd638d8403473ff405d23c8407527a0bff69a9041f6281c41cdcce4407b14aebf46352b40f6281c41cdcce4407b14aebf5c8f423f28f332418bc5fb40be3db9bf35d28a4028315641e92609415ebac9bff69a9041d8a35c4114ae0b41cdccccbf54558540
   m_StreamData:
     serializedVersion: 2
     offset: 0
@@ -1030,7 +992,7 @@ Transform:
   m_GameObject: {fileID: 1401485392}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 10, y: 4, z: -12}
+  m_LocalPosition: {x: 17, y: 7, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
